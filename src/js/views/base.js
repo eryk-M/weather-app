@@ -9,7 +9,7 @@ export const renderLoader = el => {
   const loader = `
     <div class="loader">
           <svg>
-            <use href="/img/icon.svg#icon-light-up"></use>
+            <use href="./img/icon.svg#icon-light-up"></use>
           </svg>
         </div>
     `;
