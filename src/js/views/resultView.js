@@ -94,11 +94,11 @@ export const renderWeather = weather => {
             <div class="result__day-wrapper">
               <h2 class="result__day">Today</h2>
               <img
-                src="https://openweathermap.org/img/w/${
-                  weather.list[0].weather[0].icon
-                }.png"
-                alt="Weather condition"
-              />
+              src="https://openweathermap.org/img/w/${
+                weather.list[0].weather[0].icon
+              }.png"
+              alt="Weather condition"
+            />
               <span class="result__description">${
                 weather.list[0].weather[0].description
               }</span>
@@ -147,11 +147,11 @@ export const renderWeather = weather => {
             <div class="result__day-wrapper">
               <h2 class="result__day">Tomorrow</h2>
               <img
-                src="http://openweathermap.org/img/w/${
-                  weather.list[8].weather[0].icon
-                }.png"
-                alt="Weather condition"
-              />
+              src="https://openweathermap.org/img/w/${
+                weather.list[8].weather[0].icon
+              }.png"
+              alt="Weather condition"
+            />
               <span class="result__description">${
                 weather.list[8].weather[0].description
               }</span>
@@ -194,11 +194,11 @@ export const renderWeather = weather => {
         <div class="result__day-wrapper">
           <h2 class="result__day">${weather.list[16].dt_txt.substr(5, 11)}</h2>
           <img
-            src="http://openweathermap.org/img/w/${
-              weather.list[16].weather[0].icon
-            }.png"
-            alt="Weather condition"
-          />
+          src="https://openweathermap.org/img/w/${
+            weather.list[16].weather[0].icon
+          }.png"
+          alt="Weather condition"
+        />
           <span class="result__description">${
             weather.list[16].weather[0].description
           }</span>
@@ -239,12 +239,14 @@ export const renderWeather = weather => {
       <div class="result__info wow fadeInRight" data-wow-delay="2.5s">
       <div class="result__day-wrapper">
         <h2 class="result__day">${weather.list[24].dt_txt.substr(5, 11)}</h2>
+        
         <img
-          src="http://openweathermap.org/img/w/${
-            weather.list[24].weather[0].icon
-          }.png"
-          alt="Weather condition"
-        />
+        src="https://openweathermap.org/img/w/${
+          weather.list[24].weather[0].icon
+        }.png"
+        alt="Weather condition"
+      />
+
         <span class="result__description">${
           weather.list[24].weather[0].description
         }</span>
@@ -285,12 +287,14 @@ export const renderWeather = weather => {
     <div class="result__info wow fadeInRight" data-wow-delay="3s">
     <div class="result__day-wrapper">
       <h2 class="result__day">${weather.list[32].dt_txt.substr(5, 11)}</h2>
+      
       <img
-        src="http://openweathermap.org/img/w/${
-          weather.list[32].weather[0].icon
-        }.png"
-        alt="Weather condition"
-      />
+      src="https://openweathermap.org/img/w/${
+        weather.list[32].weather[0].icon
+      }.png"
+      alt="Weather condition"
+    />
+
       <span class="result__description">${
         weather.list[32].weather[0].description
       }</span>

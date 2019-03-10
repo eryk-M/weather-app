@@ -31,7 +31,7 @@ const state = {};
 
 const searchController = async () => {
   const query = resultView.getInput();
-  console.log(query);
+  // console.log(query);
 
   if (query) {
     // const temp = (state.search.result.list[0].main.temp - 273.15).toFixed();
@@ -55,7 +55,8 @@ const searchController = async () => {
         "linear-gradient(to right bottom, #fc4a1a, #f7b733)";
     }
 
-    console.log((state.search.result.list[0].main.temp - 273.15).toFixed());
+    // console.log((state.search.result.list[0].main.temp - 273.15).toFixed());
+    // console.log(state.search.result);
     clearLoader();
     resultView.renderWeather(state.search.result);
   }
@@ -66,6 +67,6 @@ selectors.formSearch.addEventListener("submit", e => {
   searchController();
 });
 
-const search = new Search("Giżycko");
+// const search = new Search("Giżycko");
 // console.log(search);
-search.getResults();
+// search.getResults();
