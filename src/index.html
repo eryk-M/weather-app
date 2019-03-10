@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather app</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <form class="search">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search your weather..."
+          />
+          <button class="btn search__btn">Search</button>
+        </form>
+      </header>
+
+      <div class="result">
+        <!-- <div class="loader">
+          <svg>
+            <use href="/img/icon.svg#icon-light-up"></use>
+          </svg>
+        </div> -->
+        <!-- <div class="result__box">
+          <h1 class="result__name">
+            Giżycko, PL<img
+              class="flag"
+              src="https://www.countryflags.io/PL/shiny/64.png"
+              alt="Flaga"
+            />
+          </h1>
+
+          <div class="result__info">
+            <div class="result__day-wrapper">
+              <h2 class="result__day">Today</h2>
+              <img
+                src="http://openweathermap.org/img/w/10d.png"
+                alt="Weather condition"
+              />
+              <span class="result__description">light rain</span>
+            </div>
+            <div class="result__details">
+              <span class="result__temperature"
+                ><i class="fas fa-thermometer-half" style="color: goldenrod"></i
+                >Temperature: 5</span
+              >
+              <span class="result__min-temp"
+                ><i class="fas fa-thermometer-empty" style="color: aqua"></i>Min
+                temp: 10</span
+              >
+              <span class="result__max-temp"
+                ><i class="fas fa-thermometer-full" style="color:crimson"></i
+                >Max temp: 12</span
+              >
+              <span class="result__wind-speed"
+                ><i class="fas fa-wind" style="color: blue"></i>Wind speed: 36
+                km/h</span
+              >
+              <span class="result__humidity"
+                ><i class="fas fa-tint"></i>Humidity: 99%</span
+              >
+              <span class="result__pressure"
+                ><i class="fas fa-compress" style="color: red"></i>Pressure:
+                999</span
+              >
+              <span class="result__cloudiness"
+                ><i class="fas fa-cloud" style="color: lightblue"></i
+                >Cloudiness: 44%</span
+              >
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
