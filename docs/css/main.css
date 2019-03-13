@@ -133,7 +133,7 @@ body {
 
 .result__name .flag {
   margin-left: 5rem;
-  width: 64px;
+  width: 6.4rem;
   height: auto;
   position: absolute;
 }
@@ -164,7 +164,7 @@ body {
 
 .result__day-wrapper img {
   position: absolute;
-  height: 90px;
+  height: 9rem;
   width: auto;
   top: 23%;
   left: 60%;
@@ -208,6 +208,28 @@ body {
 
 .result__info:last-of-type {
   border-right: none;
+}
+
+@media only screen and (max-width: 1366px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 40%;
+  }
+  /* .result__day-wrapper img {
+    height: 60px;
+    width: auto;
+  }
+  .result__name .flag {
+    margin-left: 5rem;
+    width: 48px;
+    height: auto;
+    position: absolute;
+  } */
 }
 
 /*# sourceMappingURL=main.css.map */

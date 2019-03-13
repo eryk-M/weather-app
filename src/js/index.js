@@ -56,7 +56,7 @@ const searchController = async () => {
     }
 
     // console.log((state.search.result.list[0].main.temp - 273.15).toFixed());
-    // console.log(state.search.result);
+    console.log(state.search.result);
     clearLoader();
     resultView.renderWeather(state.search.result);
   }
