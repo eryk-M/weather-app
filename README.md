@@ -1,4 +1,4 @@
-#[OLD] Weather application
+# (OLD) Weather application
 This is old version of weather app -> check my weather app in react :)
 
 This application is based on Open Weather API
